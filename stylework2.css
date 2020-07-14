@@ -1,35 +1,43 @@
+html{
+    font-family:Roboto ;
+    font-size: 16px;
+}
+div{
+    box-sizing: border-box;
+}
+
 body{
-    background-color:#EEEFF1;
+ margin: 0;
+    }
+
+.work-process{
+    background-color: #eeeff1;
+    min-height: 100vh;
+    text-align: center;
+
+}
+.container{
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.work-process_title{
+    font-size: 2rem;
+    line-height: 37px;
+    color: #000000;
+    font-weight: 500;
+}
+.work-process_description{
+    color: #727272;
+    font-size: 1rem;
+    margin: 50px auto;
+    max-width: 540px;
     
 }
-
-h1 {
-    font-size: 32px;
-  font-family: Roboto;
-  text-align: center;
-  margin-top: 100px;
-  margin-bottom: 50px;
-  
-  
-
+.work-process_video iframe{
+    width: 100%;
+    height: 600px;
 }
-p{
-    font-family: Roboto; 
-       color: #727272;
-       font-size: 16px;
-       font-style: normal;
-       text-align: center;
-       margin-bottom: 57px;
-       
 
-}
-video{
-       display: flex;
-    height:450px;
-    width: 730px;
-    margin-top: 57px;
-margin-left: auto;
-margin-right: auto;
-margin-bottom: 100px;
-padding: 1px;
-}
+
