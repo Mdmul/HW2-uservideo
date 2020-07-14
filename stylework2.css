@@ -9,7 +9,156 @@ div{
 body{
  margin: 0;
     }
+li {
+        list-style-type: none;
+}
+    .container1{
+        padding: 10px;
+        margin-top: 20px;
+        background-color:  #EEEFF1;
+    }
+    .head{
+      height: 150px;
+      margin: 10px;  
+    }
 
+    .head-logo{
+        float: left;
+        margin: 5px;
+        padding: 5px;
+        width: 30%;
+        font-family: Revalia;
+        font-size: 48px;
+        line-height: 60px;
+        text-align: center;
+        color: #34547A;
+        
+    }
+    .head-navi{
+        float: left;
+        margin: 5px;
+        width: 65%;
+    }
+    .head-navi-list_link{
+      float: left;
+      margin: 10px 25px 5px 0;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      letter-spacing: 0.1em;
+      color:#000000;
+      text-decoration: none;
+      
+    }
+
+    .main{
+        width: calc(100%/2-10px);
+        padding: 15px;
+        width: 1100px;
+        height: 350px;
+        margin: 10px;
+        
+    }
+    .main-img{
+        float: left;
+        margin: 5px;
+        width: 30%;
+        text-align: right;
+
+    }
+
+.main-design{
+        float: left;
+        margin: 5px;
+        width:65%;
+        text-align: left;
+        padding-left: 120px;
+        padding-right: 120px;
+       
+}
+.main-design_info h2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 29px;
+    
+    color: #000000;
+
+}
+.main-design_info p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+.design-message{
+    font-size: 14px;
+    width: 200px;
+    color: hsl(0, 0%, 100%);
+    background: hsl(249, 33%, 34%);
+    max-width: 200px;
+    padding: 8px;
+    margin: 10px auto;
+           
+}
+
+.about-me{
+    
+}
+.info{
+    width: 100%;
+    height: 250px;
+    margin: o auto;
+    text-align: center;
+    }
+
+.info-title{
+    margin: 45px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    color: #000000;
+}
+.info-text{
+    margin: 10px 400px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+    
+}
+
+.project {
+    background-color:  #34547A;
+}
+.namber-project {
+    
+    height: 150px;
+    margin: 20px auto;
+    width: 800px;
+    padding: 10px;
+
+}
+.project-img {
+    float: left;
+    margin: 15px ;
+    width: 15%;
+    text-align: center;
+    max-width: 250px;
+    height: 40px;
+  }
+/* как я работаю */
 .work-process{
     background-color: #eeeff1;
     min-height: 100vh;
@@ -39,5 +188,116 @@ body{
     width: 100%;
     height: 600px;
 }
+/* картинки 8 шт */
 
+.images {
+    margin-top: 5px;
+    }
+.images-block {
+     max-width: 1500px;
+     height: 650px;
 
+}
+.images-block-box {
+    float: left;
+    width: 320px;
+    height: 320px;    
+    }
+.images-block-box:nth-child(odd){
+   background-image: url(11ab147894a7d2ce866ff88a4aa63655.jpg);
+}
+.images-block-box:nth-child(even){
+    background-color: rgb(0, 217, 255);
+}
+
+/* майкрософт */
+.logotip {
+    background-color: #E5E5E5;
+    margin-top: 5px;
+    
+}
+.logotip-container {
+     height: 200px;
+     width: 600px;
+     margin: 0 auto;
+     
+}
+.logotip-container-mic {
+    float: left;
+    width: 100px;
+    height: 50px;
+    margin: 60px 20px;
+    background-color: wheat;
+    
+}
+
+/* вэб сайт */
+.web-site{
+   
+
+}
+.site {
+    background-color: #EEEFF1;
+}
+.site_title {
+    padding-top: 40px;
+}
+.site_question {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    color: #000000;
+    font-weight: 500;
+    text-align: center;
+}
+.site-text{
+    color: #727272;
+    text-align: center;
+    margin: 50px auto;
+    max-width: 540px;
+}
+
+.site-info {
+   
+}
+.site-info_name {
+    margin-left: 300px;
+    display: inline-block;
+    width: 400px;
+    height: 50px;
+    background-color: #FFFFFF;
+    text-align: left;
+    padding: 10px 0px 0px 20px;      
+}
+
+.site-info_mail {
+    width: 400px;
+    display: inline-block ;
+    height: 50px;
+    margin: 20px;
+    background-color: #FFFFFF;
+    padding: 10px 0px 0px 20px;
+        
+}
+.site-info_message {
+    width: 825px;
+    height: 200px;
+    margin-left: 300px;
+    background-color: #FFFFFF;
+    padding: 10px 0px 0px 20px;
+}
+.site-button {
+    font-size: 14px;
+    width: 50px;
+    margin: 0 auto;
+   }
+
+  .site-message{ 
+    font-size: 14px;
+    width: 200px;
+    color: hsl(0, 0%, 100%);
+    background: hsl(249, 33%, 34%);
+    max-width: 200px;
+    padding: 10px;
+    margin: 10px auto;
+}
